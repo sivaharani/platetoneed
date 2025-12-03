@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PlateToNeed - Home</title>
+  <style>
+    body{font-family:Arial;text-align:center;margin-top:80px;background:#f9f9f9;}
+    h1{font-size:36px;color:#333;}
+    a.btn{display:inline-block;margin:10px;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:5px;}
+    a.btn.secondary{background:#2196F3;}
+  </style>
+</head>
+<body>
+  <h1>🍽️ PlateToNeed</h1>
+  <p>Reduce food waste. Feed the needy.</p>
+
+  <a href="{{ url_for('login') }}" class="btn">Login</a>
+  <a href="{{ url_for('signup') }}" class="btn secondary">Sign Up</a>
+</body>
+</html>
